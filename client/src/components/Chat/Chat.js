@@ -7,7 +7,7 @@ import Input from "../Input/Input";
 import Messages from "../Messages/Messages";
 
 import "./Chat.css";
-const ENDPOINT = "localhost:5000";
+const ENDPOINT = "https://she-chat.herokuapp.com/";
 let socket;
 socket = io(ENDPOINT);
 
